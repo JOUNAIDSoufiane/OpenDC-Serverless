@@ -1,0 +1,22 @@
+Lambda Experiment setup:
+
+All functions are sampled from the Azure Dataset
+
+1. Sample of 8 different functions with different invocation patterns:
+	Function 1: Timer pattern (No concurrency)
+	Function 2: Regular frequent pattern (No concurrency)
+	Function 3: Infrequent pattern (No concurrency)
+	Function 4: Very Infrequent pattern (No concurrency)
+
+	Function 5: Timer pattern (Concurrent invocations)
+	Function 6: Regular frequent pattern (Concurrent invocations)
+	Function 7: Infrequent pattern (Concurrent invocations)
+	Function 8: Very Infrequent pattern (Concurrent invocations)
+
+Experiment would run for a duration of 1440 minutes / 24 hours
+
+Concurrent invocations will be spaced by 1s each to allow for 1s binning in cloudwatch insights
+
+Experiment start time: 2020-08-01 05:10:27.099224
+
+

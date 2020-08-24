@@ -1,0 +1,59 @@
+{
+    "pricingModel": "GOOGLE",
+    "failureModel": "LAMBDA",
+    "requestQueueSize": 1000,
+    "allocationPolicy": "random",
+    "routingPolicy": "random",
+    "managementPolicy": "fixed-keep-alive",
+    "instanceIdleTimeout": 100000,
+    "histogramLimit": 60000,
+    "histogramClassWidth": 1000,
+    "histogramOOBThreshold": 0.5,
+    "histogramErrorMargin": 0.1,
+    "forecastErrorMargin": 0.15,
+    "idleMemPenalty": 0.2,
+    "seed": 9438372526792456,
+    "verbose": false,
+    "vmSetup" : [
+        {
+            "id": "1",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 2000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "2",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 2000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "3",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 2000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "4",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 2000
+                },
+                "coreClockSpeed": 1000
+            }
+        }
+    ]
+}

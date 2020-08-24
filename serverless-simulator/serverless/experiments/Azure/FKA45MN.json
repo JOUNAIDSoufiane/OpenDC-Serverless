@@ -1,0 +1,208 @@
+{
+    "pricingModel": "AZURE",
+    "failureModel": "AZURE",
+    "requestQueueSize": 1000000000000,
+    "allocationPolicy": "random",
+    "routingPolicy": "random",
+    "managementPolicy": "fixed-keep-alive",
+    "instanceIdleTimeout": 2700000,
+    "histogramLimit": 0,
+    "histogramClassWidth": 0,
+    "histogramOOBThreshold": 0,
+    "histogramErrorMargin": 0,
+    "forecastErrorMargin": 0,
+    "idleMemPenalty": 0.2,
+    "verbose": false,
+    "vmSetup" : [
+        {
+            "id": "1",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "2",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "3",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "4",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "5",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "5",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "6",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "7",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "8",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "9",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "10",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "11",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "12",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "13",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "14",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "15",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "16",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "17",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        },
+        {
+            "id": "18",
+            "resources": {
+                "hardware": {
+                    "cpuCount": 2,
+                    "memorySize": 4000
+                },
+                "coreClockSpeed": 1000
+            }
+        }
+    ]
+}

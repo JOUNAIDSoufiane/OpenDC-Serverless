@@ -11,7 +11,7 @@ The first Function-as-a-Service trace-based simulator
 
 This repository contains the experiment analysis scripts, trace generation scripts and source code of Soufiane Jounaid's BSc Computer Science thesis: OpenDC Serverless: OpenDC Serverless: Design, Implementation and Evaluation of a FaaS Platform Simulator [1]
 
-All the work denoted in this repository is part of published work [2]
+All the work denoted in this repository is part of a published paper [2]
 
 [1] https://drive.google.com/file/d/12hox3PwagpD0jNFA57tO4r2HqvOonkY3/view?usp=sharing
 
